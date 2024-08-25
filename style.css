@@ -5,14 +5,14 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: rgba(167, 9, 9, 0.897);
     font-family: Arial, sans-serif;
 }
 
 h1 {
     font-size: 2em;
     color: black;
-    font-family:Papyrus, 'Times New Roman', Times, serif
+    font-family: Papyrus, 'Times New Roman', Times, serif;
 }
 
 .container {
@@ -36,52 +36,41 @@ h1 {
 }
 
 #gif {
-    width: 100px;
-    height: 100px;
-}
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    width: 200px;  /* Adjusted for page 2 */
+    height: 200px;
 }
 
-h1 {
-    font-size: 2em;
-    color: black;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
     width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
     max-width: 600px;
+    text-align: center;
 }
 
-.styled-button {
-    color: black;
-    width: 100px;
-    height: 50px;
-    padding: 5px;
-    background-color: aquamarine;
-    position: relative;
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
     cursor: pointer;
-    font-size: 1em;
-    border: none;
-    border-radius: 5px;
 }
 
-#gif {
-    width: 200px;  /* Original width doubled */
-    height: 200px; /* Original height doubled */
-}
-
-body {
-
-    background-color: rgba(167, 9, 9, 0.897);
+.close-button:hover,
+.close-button:focus {
+    color: black;
 }
