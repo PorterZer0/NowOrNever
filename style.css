@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    color: black;
+    font-family:Papyrus, 'Times New Roman', Times, serif
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px;
+}
+
+#yesButton, #noButton {
+    color: black;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    background-color: aquamarine;
+    position: relative;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 20px;
+}
+
+#gif {
+    width: 100px;
+    height: 100px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px;
+}
+
+.styled-button {
+    color: black;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    background-color: aquamarine;
+    position: relative;
+    cursor: pointer;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+#gif {
+    width: 200px;  /* Original width doubled */
+    height: 200px; /* Original height doubled */
+}
+
+body {
+
+    background-color: rgba(167, 9, 9, 0.897);
+}
