@@ -74,3 +74,22 @@ h1 {
 .close-button:focus {
     color: black;
 }
+/* Other existing styles */
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;  /* Ensure the modal has a max width */
+    text-align: center;
+    box-sizing: border-box;  /* Include padding and border in the element's width and height */
+}
+
+#modalVideo {
+    width: 100%;  /* Make the video take up the full width of the modal content */
+    height: auto;  /* Maintain the aspect ratio */
+    max-width: 100%;  /* Ensure the video doesn't exceed the modal's width */
+    border-radius: 10px;  /* Optional: Add some rounding to the video corners */
+}
