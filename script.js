@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         image.addEventListener('click', () => {
             const selectedImageSrc = image.getAttribute('src');
             localStorage.setItem('selectedImage', selectedImageSrc);
-            window.location.href = 'index.html';
+            window.location.href = 'home.html';
         });
     });
 });
