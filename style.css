@@ -93,3 +93,34 @@ h1 {
     max-width: 100%;  /* Ensure the video doesn't exceed the modal's width */
     border-radius: 10px;  /* Optional: Add some rounding to the video corners */
 }
+/*landing*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.selectable-img {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.selectable-img:hover {
+    transform: scale(1.2);
+}
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    margin-bottom: 20px;
+}
