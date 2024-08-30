@@ -2,17 +2,26 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Are you free on Sunday?</title>
+    <title>Are you free next week?</title>
     <link rel="stylesheet" href="style.css">
     <script src="./script.js" defer></script>
 </head>
 <body>
-    <h1>Are you free on Sunday?</h1>
+    <h1>Are you free next week?</h1>
     
     <div class="container">
         <button id="yesButton">Yes</button>
-        <img src="cutest-cat-gifs-kitten-meow.gif" alt="Funny GIF" id="gif">
+        <img id="gif" src="cutest-cat-gifs-kitten-meow.gif" alt="Funny GIF">
         <button id="noButton">No</button>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const selectedImage = localStorage.getItem('selectedImage');
+            if (selectedImage) {
+                document.getElementById('gif').setAttribute('src', selectedImage);
+            }
+        });
+    </script>
 </body>
 </html>
