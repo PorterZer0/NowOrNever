@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // Set a timer to trigger an alert after 13 seconds
     setTimeout(() => {
         alert("just press yes it'll be fine");
-    }, 5000); // 13000 milliseconds = 13 seconds
+    }, 13000); // 13000 milliseconds = 13 seconds
 
     noButton.addEventListener('mouseover', () => {
         noButton.style.position = 'absolute';
