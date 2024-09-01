@@ -98,9 +98,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     margin: 0;
+    background-color: red;
     font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
 .image-container {
@@ -110,8 +118,8 @@ body {
 }
 
 .selectable-img {
-    width: 150px;
-    height: 150px;
+    width: 250px; /* Increased width */
+    height: 250px; /* Increased height */
     transition: transform 0.3s ease;
     cursor: pointer;
 }
@@ -119,8 +127,4 @@ body {
 .selectable-img:hover {
     transform: scale(1.2);
 }
-h1 {
-    color: rgb(0, 0, 0);
-    font-size: 2em;
-    margin-bottom: 20px;
-}
+
